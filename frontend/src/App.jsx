@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-route
 import { FaHome, FaCalculator, FaShieldAlt, FaUsers, FaBolt, FaSignOutAlt, FaThLarge, FaCheck, FaTimes, FaTrash, FaUserEdit, FaUndo } from 'react-icons/fa';
 import './App.css';
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL || "https://esakay-backend.onrender.com/api";
 
 // --- LOGIN & REGISTER ---
 const Login = () => {
